@@ -1,0 +1,60 @@
+.navbar{
+    
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 20px;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    z-index: 1;
+    /* background-color: #111; */
+    
+}
+
+.logo{
+    position: fixed;
+    left: 20px;
+    width: 120px;
+   
+}
+
+.avatar{
+    position: fixed;
+    right:120px ;
+    width: 30px;
+    
+}
+
+.btnsign{
+    position: fixed;
+    right:20px ;
+    width: 90px;
+    height: 40px;
+    color: white;
+    background-color: red;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+    border: 0;
+}
+.btnsign:hover{
+    background-color: brown;
+}
+
+.user{
+    color: white;
+    position: fixed;
+    right: 160px;
+    top: 23px;
+}
+.searchbar{
+    position: absolute;
+    right: 400px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    height: 30px;
+    cursor: pointer;
+}
+
